@@ -2,18 +2,18 @@
 
 ## Release Note
 
-- [Release Note](#ntd-agg-release-note)
+- [Release Note](#rmncah-emonc-release-note)
 
 ## Design
 
-- [Version 1.0.0](#ntd-agg-design)
+- [Version 1.0.0](#rmncah-emonc-design)
 
 ## Installation
 
-- [Installation Guide](#ntd-agg-installation)
+- [Installation Guide](#rmncah-emonc-installation)
 
 ## Metadata Reference
 
-- [Version 1.0.0](https://packages.dhis2.org/en/NTD_AGG/1.0.0/DHIS2.41/NTD_AGG_COMPLETE_1.0.0_DHIS2.41.xlsx)
+- [Version 1.0.0](https://packages.dhis2.org/en/RMNCAH_EMONC/1.0.0/DHIS2.41/RMNCAH_EMONC_COMPLETE_1.0.0_DHIS2.41.xlsx)
 
 ## Resources
