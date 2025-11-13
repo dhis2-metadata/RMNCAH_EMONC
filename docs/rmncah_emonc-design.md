@@ -127,7 +127,7 @@ This section includes two core data elements:
 
 The **Type of EmONC** field is critical for enabling context-specific validation and analysis. Once the type is selected, DHIS2 automatically triggers a set of **validation rules** to ensure data consistency and completeness. These rules verify that key **drugs and supplies**, **materials and equipment**, and **human resources** required for the selected EmONC level have been reported.
 
-![Identification section](resources/images/EMONC_identification.png)
+![Identification section](resources/images/EMONC_Identification.png)
 
 This design ensures data integrity and alignment with the EmONC classification framework, allowing appropriate aggregation and analysis across facilities according to their designated level of care.
 
