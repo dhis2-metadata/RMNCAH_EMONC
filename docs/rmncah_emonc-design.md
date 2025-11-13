@@ -77,34 +77,34 @@ The **EmONC Aggregate Toolkit** is designed to meet the needs of **programme man
 
 Intended users may include:
 
-- **Maternal and Newborn Health (MNH) and EmONC programme managers (national and sub-national):  
-    **Data users responsible for reviewing and interpreting EmONC indicators to monitor performance, identify gaps in service delivery, and guide planning and resource allocation. They use the EmONC dashboards for evidence-based decision-making, supervision, and performance review.
-- **Health Management Information System (HMIS) and Monitoring & Evaluation (M&E) officers:  
-    **Users who oversee data collection, aggregation, validation, and reporting processes for EmONC indicators within the national health information system. They ensure data quality, completeness, and consistency across reporting facilities and coordinate feedback mechanisms to improve routine reporting.
-- **System administrators and DHIS2 focal points:  
-    **Technical users responsible for configuring, maintaining, and adapting the EmONC module within DHIS2. They manage user roles and permissions, update metadata, ensure alignment with other DHIS2 health domains, and provide support and troubleshooting for end users.
-- **Facility-level staff and supervisors:  
-    **Health workers or supervisors at facilities who report EmONC data on a quarterly or biannual basis using DHIS2 aggregate data sets. Depending on the national workflow, data may be entered directly into DHIS2 or consolidated from paper-based forms reflecting the EmONC Light Assessment Tool.
-- **Implementing and technical partners:  
-    **Organizations supporting Ministries of Health in EmONC and MNH programme implementation, digital health, or data systems strengthening. These partners may provide capacity building, facilitate system adaptation and rollout, and support data analysis and use for programme improvement.
+- **Maternal and Newborn Health (MNH) and EmONC programme managers (national and sub-national)**:  
+    Data users responsible for reviewing and interpreting EmONC indicators to monitor performance, identify gaps in service delivery, and guide planning and resource allocation. They use the EmONC dashboards for evidence-based decision-making, supervision, and performance review.
+- **Health Management Information System (HMIS) and Monitoring & Evaluation (M&E) officers**:  
+    Users who oversee data collection, aggregation, validation, and reporting processes for EmONC indicators within the national health information system. They ensure data quality, completeness, and consistency across reporting facilities and coordinate feedback mechanisms to improve routine reporting.
+- **System administrators and DHIS2 focal points**:  
+    Technical users responsible for configuring, maintaining, and adapting the EmONC module within DHIS2. They manage user roles and permissions, update metadata, ensure alignment with other DHIS2 health domains, and provide support and troubleshooting for end users.
+- **Facility-level staff and supervisors**:  
+    Health workers or supervisors at facilities who report EmONC data on a quarterly or biannual basis using DHIS2 aggregate data sets. Depending on the national workflow, data may be entered directly into DHIS2 or consolidated from paper-based forms reflecting the EmONC Light Assessment Tool.
+- **Implementing and technical partners**:  
+    Organizations supporting Ministries of Health in EmONC and MNH programme implementation, digital health, or data systems strengthening. These partners may provide capacity building, facilitate system adaptation and rollout, and support data analysis and use for programme improvement.
 
 ### Design structure
 
 The **DHIS2 EmONC Aggregate Toolkit** is composed of two main components that together enable comprehensive monitoring of emergency obstetric and newborn care (EmONC) service readiness and performance:
 
-1.  **Dashboards and Indicators  
-    **The toolkit includes **four dashboards**, organized into two major groups according to their intended level of use:
-    - **Health Facility Dashboards  
-        **These dashboards are accessible to health facilities according to the level of EmONC services they provide. Each presents relevant indicators derived from the EmONC Light Assessment Tool (LAT) and supports facility-level monitoring, supervision, and quality improvement.
+1.  **Dashboards and Indicators** 
+    The toolkit includes **four dashboards**, organized into two major groups according to their intended level of use:
+    - **Health Facility Dashboards**
+        These dashboards are accessible to health facilities according to the level of EmONC services they provide. Each presents relevant indicators derived from the EmONC Light Assessment Tool (LAT) and supports facility-level monitoring, supervision, and quality improvement.
         1.  **BEmONC Dashboard:** For facilities providing **Basic Emergency Obstetric and Newborn Care**, focusing on the availability and functionality of essential drugs, supplies, equipment, human resources, and basic signal functions.
         2.  **CEmONC Dashboard:** For facilities providing **Comprehensive Emergency Obstetric and Newborn Care**, including surgical and blood transfusion capacity, with corresponding readiness and performance indicators.
         3.  **IEmONC Dashboard:** For **Intermediate or referral-level facilities** that offer advanced maternal and newborn care beyond comprehensive level, focusing on specialized services and system performance.
-    - **B. Subnational and National Dashboard  
-        **This dashboard is designed for **district, regional, and national programme managers**. It aggregates data across facilities and administrative units to provide an overview of system readiness, utilization, outcomes, and referral performance. It supports strategic planning, prioritization of resources, and monitoring of EmONC coverage and quality across the national network of facilities.  
+    - **B. Subnational and National Dashboard** 
+        This dashboard is designed for **district, regional, and national programme managers**. It aggregates data across facilities and administrative units to provide an overview of system readiness, utilization, outcomes, and referral performance. It supports strategic planning, prioritization of resources, and monitoring of EmONC coverage and quality across the national network of facilities.  
         All dashboards are powered by **core indicators** aligned with the **EmONC Light Assessment Tool (LAT)** domains. Indicators are grouped by thematic area—readiness, signal functions, utilization and outcomes, and referral systems—to support targeted analysis and data-driven decision-making at each level of the health system.  
         
-2.  **Aggregate Data Set  
-    **The configuration includes a **single aggregate data set – the EmONC Light Assessment Tool (LAT)** – which mirrors the structure and content of the UNFPA LAT instrument. This dataset captures all the key domains for EmONC monitoring, including:  
+2.  **Aggregate Data Set**
+    The configuration includes a **single aggregate data set – the EmONC Light Assessment Tool (LAT)** – which mirrors the structure and content of the UNFPA LAT instrument. This dataset captures all the key domains for EmONC monitoring, including:  
     - Facility readiness and availability of drugs, supplies, equipment, and infrastructure
     - Deliveries, maternal and newborn complications, and outcomes
     - Performance of signal functions
@@ -127,7 +127,7 @@ This section includes two core data elements:
 
 The **Type of EmONC** field is critical for enabling context-specific validation and analysis. Once the type is selected, DHIS2 automatically triggers a set of **validation rules** to ensure data consistency and completeness. These rules verify that key **drugs and supplies**, **materials and equipment**, and **human resources** required for the selected EmONC level have been reported.
 
-!\[Identification section\](resources/images/EMONC_identification.png)
+![Identification section](resources/images/EMONC_identification.png)
 
 This design ensures data integrity and alignment with the EmONC classification framework, allowing appropriate aggregation and analysis across facilities according to their designated level of care.
 
@@ -137,7 +137,7 @@ The **Key EmONC Drugs and Supplies** section captures the availability of essent
 
 Each data element is reported as a **binary variable** indicating whether the commodity was **continuously available with no stockouts during the reporting period**.
 
-!\[Key EMoNC drugs and supplies section\](resources/images/EMONC_drugs_supplies.png)
+![Key EMoNC drugs and supplies section](resources/images/EMONC_drugs_supplies.png)
 
 **Validation rules** linked to this section depend on the **Type of EmONC** selected in the _Identification_ section:
 
@@ -198,7 +198,7 @@ In addition to these core staff, **CEmONC and IEmONC facilities** are expected t
 
 This approach ensures that data on staffing are appropriately aligned with the **type of EmONC services provided**, allowing programme managers to assess readiness, identify gaps in workforce allocation, and plan for capacity strengthening where needed.
 
-!\[Key HR for EMoNC section\](resources/images/EMONC_HR.png)
+![Key HR for EMoNC section](resources/images/EMONC_HR.png)
 
 #### Basic infrastructure
 
@@ -215,7 +215,7 @@ Facilities are required to report on the following components:
 - Blood bank: Existence of an on-site blood bank or formal access to a nearby functional transfusion service.
 - Functioning ambulance: Availability of a reliable and functional ambulance (or other designated emergency transport vehicle) for referral and emergency transfers.
 
-!\[Basic infrastructure section\](resources/images/EMONC_basic_infrastructure.png)
+![Basic infrastructure section](resources/images/EMONC_basic_infrastructure.png)
 
 #### Health Statistics – Deliveries & Births
 
@@ -223,7 +223,7 @@ The Health Statistics – Deliveries & Births section captures data on delivery 
 
 All data elements are reported as numeric counts representing the number of cases recorded during the reporting period.
 
-!\[Health statistics - Deliveries & Births section\](resources/images/EMONC_deliveris_births.png)
+![Health statistics - Deliveries & Births section](resources/images/EMONC_deliveris_births.png)
 
 #### Health statistics - Mothers: Direct obstetric complications
 
@@ -243,7 +243,7 @@ Facilities are required to report on the following conditions:
 - **Complications of abortion:** Number of women managed for abortion-related complications, including incomplete, septic, or unsafe abortion cases.
 - **Other direct obstetric complications:** Any other life-threatening maternal complications directly related to pregnancy or delivery not captured in the categories above (e.g., retained placenta, amniotic embolism).
 
-!\[Health statistics - Mothers: Direct obstetric complications section\](resources/images/EMONC_mothers_direct_obstetric_complications.png)
+![Health statistics - Mothers: Direct obstetric complications section](resources/images/EMONC_mothers_direct_obstetric_complications.png)
 
 #### Health statistics - Mothers: Indirect complications
 
@@ -261,7 +261,7 @@ Facilities are required to report on:
 
 Data from this section are used to complement analyses of maternal mortality and morbidity, supporting the identification of systemic weaknesses in the management of chronic or non-obstetric conditions that complicate pregnancy and childbirth.
 
-!\[Health statistics - Mothers: Indirect obstetric complications section\](resources/images/EMONC_mothers_indirect_obstetric_complications.png)
+![Health statistics - Mothers: Indirect obstetric complications section](resources/images/EMONC_mothers_indirect_obstetric_complications.png)
 
 #### Health statistics - Mothers: Unknown causes of maternal deaths
 
@@ -277,7 +277,7 @@ Facilities should use this field only when:
 
 This section helps identify data quality issues in mortality reporting and guides targeted follow-up for case investigation, audit, or documentation improvement.
 
-!\[Health statistics - Mothers: Unknown causes of maternal deaths section\](resources/images/EMONC_mothers_unknown_causes_maternal_deaths.png)
+![Health statistics - Mothers: Unknown causes of maternal deaths section](resources/images/EMONC_mothers_unknown_causes_maternal_deaths.png)
 
 #### Health statistics - Newborns
 
@@ -303,7 +303,7 @@ All data are reported as **numeric counts**, representing events during the repo
 
 This section supports analysis of newborn morbidity and mortality patterns, helps identify quality-of-care gaps at the facility level, and contributes to continuous monitoring of neonatal outcomes within the EmONC network.
 
-!\[Health statistics - Newborns section\](resources/images/EMONC_health_statistics_newborn.png)
+![Health statistics - Newborns section](resources/images/EMONC_health_statistics_newborn.png)
 
 #### Performance of signal functions - Obstetric
 
@@ -321,7 +321,7 @@ For each signal function, users must select one of the following options:
 
 Each response provides critical insight into whether the facility is **functionally capable of providing emergency obstetric care** or constrained by human resource, supply, or policy-related barriers. This information helps identify specific areas for support, supervision, or system strengthening to ensure that emergency interventions can be performed when needed.
 
-!\[Performance of signal functions - Obstetric section\](resources/images/EMONC_performance_signal_functions_obstetric.png)
+![Performance of signal functions - Obstetric section](resources/images/EMONC_performance_signal_functions_obstetric.png)
 
 #### Performance of signal functions - Newborn
 
@@ -331,7 +331,7 @@ This section provides insight into the facility’s capacity to manage life-thre
 
 Each signal function represents a core capability for newborn survival and care. Monitoring their performance helps identify service delivery bottlenecks and areas requiring targeted support in training, supply availability, or service organization.
 
-!\[Performance of signal functions - Newborn section\](resources/images/EMONC_performance_signal_functions_newborn.png)
+![Performance of signal functions - Newborn section](resources/images/EMONC_performance_signal_functions_newborn.png)
 
 #### Performance of signal functions - Referral
 
@@ -347,7 +347,7 @@ This indicator assesses whether the facility can mobilize a functioning ambulanc
 
 Monitoring this function helps determine whether referral pathways are operational, safe, and timely, and identifies gaps related to transport availability, staffing, or coordination that may delay emergency care.
 
-!\[Performance of signal functions - Referral section\](resources/images/EMONC_performance_signal_functions_referral.png)
+![Performance of signal functions - Referral section](resources/images/EMONC_performance_signal_functions_referral.png)
 
 #### Provision of other MNH services
 
@@ -355,7 +355,7 @@ The **Provision of Other MNH Services** section captures additional elements of 
 
 The same list of response options applies as in the _Performance of Signal Functions – Obstetric_ section.
 
-!\[Provision of other MNH services section\](resources/images/EMONC_provision_other_MNH.png)
+![Provision of other MNH services section](resources/images/EMONC_provision_other_MNH.png)
 
 #### Quality of referral
 
@@ -369,7 +369,7 @@ This section includes the following elements:
 
 These indicators help evaluate the functionality and equity of the referral system, identifying gaps in communication, financial access, and documentation that can delay or compromise emergency care for women and newborns.
 
-!\[Quality of referral section\](resources/images/EMONC_quality_referral.png)
+![Quality of referral section](resources/images/EMONC_quality_referral.png)
 
 ## EMONC dashboards
 
@@ -381,15 +381,15 @@ The nine visualizations together provide health facility supervisors with a comp
 
 Six visualizations provide information on facility readiness to provide basic, comprehensive, or intensive EmONC, depending on its classification. The first two visualizations describe the availability of essential drugs and supplies. The table lists specific drugs and supplies, indicating their availability numerically (0 = not available, 1 = available). The gauge visualization indicates the percent of required drugs and supplies that are available. At the BEmONC level, as illustrated below, 14 items are expected to be available.
 
-\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD\]
+\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD]
 
 The next two visualizations describe the availability of essential materials and equipment. The table lists specific items, indicating their availability numerically (0 = not available, 1 = available). The gauge visualization indicates the percent of required materials and equipment that are available. At the BEmONC level, as illustrated below, 19 items are expected.
 
-\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD\]
+\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD]
 
 The final two visualizations describing facility readiness note the availability of essential infrastructure. The table lists five essential aspects of infrastructure, indicating their availability numerically (0 = not available, 1 = available). The gauge visualization indicates the percent of required infrastructure elements that are available. At the BEmONC level, as illustrated below, five elements of infrastructure are expected to be available. All elements must be available for a facility to provide EmONC.
 
-\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD\]
+\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD]
 
 The next visualization describes whether the facility is functioning as an effective EmONC facility, based on whether the Light Assessment Tool found that it provided all the signal functions for its level (BEmONC, CEmONC, or IEmONC) in the past three months. While a facility should have provided all the signal functions appropriate for its designation, many will have provided all but one or all but two. Therefore, the visualization also includes target lines for EmONC-1 and EmONC-2. Understanding the level of signal function provision is helpful for facility supervisors to identify priorities for and target improvements in facility readiness and provider skills to deliver all components of EmONC.
 
