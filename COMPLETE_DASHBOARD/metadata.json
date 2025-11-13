@@ -6252,15 +6252,15 @@
         }
     ],
     "package": {
-        "DHIS2Build": "1cd8262",
-        "DHIS2Version": "2.41.4",
+        "DHIS2Build": "2c064a4",
+        "DHIS2Version": "2.41.6",
         "code": "RMNCAH_EMONC",
         "description": "Emergency Obstetric and Newborn Care (dashboard)",
         "healthAreaCode": "RMNCAH",
         "healthAreaName": "Reproductive, Maternal, Newborn, Child and Adolescent Health",
         "lastUpdated": "20251110T155723",
         "locale": "en",
-        "name": "RMNCAH_EMONC_DSH_DHIS2.41.4-en",
+        "name": "RMNCAH_EMONC_DSH_DHIS2.41.6-en",
         "type": "DSH",
         "version": ""
     },
@@ -6485,6 +6485,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -6607,6 +6610,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -6801,6 +6807,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -6913,6 +6922,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -7134,6 +7146,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -7246,6 +7261,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -7383,6 +7401,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -7495,6 +7516,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -7622,6 +7646,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -7732,6 +7759,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_4_QUARTERS"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -7837,6 +7867,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_4_QUARTERS"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -8037,6 +8070,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -8149,6 +8185,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -8400,6 +8439,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -8512,6 +8554,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -8655,6 +8700,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -8767,6 +8815,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -8894,6 +8945,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -9004,6 +9058,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_4_QUARTERS"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -9204,6 +9261,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -9316,6 +9376,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -9567,6 +9630,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -9679,6 +9745,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -9822,6 +9891,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -9934,6 +10006,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10061,6 +10136,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10171,6 +10249,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_4_QUARTERS"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10276,6 +10357,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_4_QUARTERS"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10405,6 +10489,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10534,6 +10621,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10668,6 +10758,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10798,6 +10891,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -10928,6 +11024,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -11058,6 +11157,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
@@ -11180,6 +11282,9 @@
             "organisationUnits": [],
             "percentStackedValues": false,
             "periods": [],
+            "rawPeriods": [
+                "LAST_MONTH"
+            ],
             "regression": false,
             "regressionType": "NONE",
             "reportingParams": {
