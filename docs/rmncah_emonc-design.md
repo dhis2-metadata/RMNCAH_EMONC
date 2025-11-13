@@ -417,7 +417,7 @@ The accompanying three tables indicate how many BEmONC, CEmONC, and IEmoNC facil
 
 The last three visualizations describe the proportion of facilities functioning as an effective EmONC facility, based on whether the Light Assessment Tool found that it provided all the signal functions for its level (BEmONC, CEmONC, or IEmONC) in the past three months. While a facility should have provided all the signal functions appropriate for its designation, many will have provided all but one or all but two. Therefore, the visualizations also visualize the proportion of facilities that provide EmONC-1, EmONC-2 and the ones that are not providing effective EmONC.
 
-![Effective EmONC facilities (%)](resources/images/EMONC_04_07.09.png)
+![Effective EmONC facilities (%)](resources/images/EMONC_04_07_09.png)
 
 ## User groups
 
