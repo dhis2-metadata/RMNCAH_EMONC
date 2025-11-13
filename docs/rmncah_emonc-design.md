@@ -381,19 +381,25 @@ The nine visualizations together provide health facility supervisors with a comp
 
 Six visualizations provide information on facility readiness to provide basic, comprehensive, or intensive EmONC, depending on its classification. The first two visualizations describe the availability of essential drugs and supplies. The table lists specific drugs and supplies, indicating their availability numerically (0 = not available, 1 = available). The gauge visualization indicates the percent of required drugs and supplies that are available. At the BEmONC level, as illustrated below, 14 items are expected to be available.
 
-\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD]
+![Drugs and supplies available (%)](resources/images/EMONC_01_01_02.png)
 
 The next two visualizations describe the availability of essential materials and equipment. The table lists specific items, indicating their availability numerically (0 = not available, 1 = available). The gauge visualization indicates the percent of required materials and equipment that are available. At the BEmONC level, as illustrated below, 19 items are expected.
 
-\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD]
+![Material and equipment available (%)](resources/images/EMONC_01_03_04.png)
 
 The final two visualizations describing facility readiness note the availability of essential infrastructure. The table lists five essential aspects of infrastructure, indicating their availability numerically (0 = not available, 1 = available). The gauge visualization indicates the percent of required infrastructure elements that are available. At the BEmONC level, as illustrated below, five elements of infrastructure are expected to be available. All elements must be available for a facility to provide EmONC.
 
-\[SCREENSHOTS TO BE ADDED ONCE CORRECTED ON DASHBOARD]
+![Basic infrastracture available (%)](resources/images/EMONC_01_05_06.png)
 
 The next visualization describes whether the facility is functioning as an effective EmONC facility, based on whether the Light Assessment Tool found that it provided all the signal functions for its level (BEmONC, CEmONC, or IEmONC) in the past three months. While a facility should have provided all the signal functions appropriate for its designation, many will have provided all but one or all but two. Therefore, the visualization also includes target lines for EmONC-1 and EmONC-2. Understanding the level of signal function provision is helpful for facility supervisors to identify priorities for and target improvements in facility readiness and provider skills to deliver all components of EmONC.
 
+![Provision of BEmONC signal functions](resources/images/EMONC_01_07.png)
+
 The final two visualizations document maternal and perinatal outcomes, providing case fatality rates from direct obstetric complications and perinatal complications in the past four quarters.
+
+![Direct obstetric complications - Case fatality rate (%)](resources/images/EMONC_01_08.png)
+
+![Perinatal Complication - Case Fatality Rate (%)](resources/images/EMONC_01_09.png)
 
 When interpreted alongside data on EmONC readiness and signal function provision, these visualizations enables supervisors to link service capacity with outcomes and identify where targeted interventions—such as refresher training, equipment procurement, or improved newborn resuscitation protocols—could strengthen the quality of care and reduce preventable maternal and perinatal deaths.
 
@@ -403,7 +409,15 @@ The Subnational/National Dashboard aggregates information from all BEmONC, CEmON
 
 The first six visualizations provide a snapshot of facility readiness to provide EmONC across levels. The three charts indicate the percent of BEmONC, CEmONC, and IEmONC facilities that have all essential drugs and supplies, materials and equipment, and elements of essential infrastructure required to provide EmONC.
 
+![Facility Readiness (%)](resources/images/EMONC_04_01_03.png)
+
 The accompanying three tables indicate how many BEmONC, CEmONC, and IEmoNC facilities in the selected subnational or national areas have all all essential drugs and supplies, materials and equipment, and elements of essential infrastructure required to provide EmONC.
+
+![Facility Readiness](resources/images/EMONC_04_04_06.png)
+
+The last three visualizations describe the proportion of facilities functioning as an effective EmONC facility, based on whether the Light Assessment Tool found that it provided all the signal functions for its level (BEmONC, CEmONC, or IEmONC) in the past three months. While a facility should have provided all the signal functions appropriate for its designation, many will have provided all but one or all but two. Therefore, the visualizations also visualize the proportion of facilities that provide EmONC-1, EmONC-2 and the ones that are not providing effective EmONC.
+
+![Effective EmONC facilities (%)](resources/images/EMONC_04_07.09.png)
 
 ## User groups
 
